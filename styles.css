@@ -1,0 +1,107 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+html { 
+    height: 100%; 
+} 
+ 
+body { 
+    background-color: yellowgreen; 
+    height: 100%; 
+} 
+
+.card {
+    height: 170px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 128px;
+}
+
+.card-img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 8px 8px 0 0;        
+}
+
+.gap {
+    height: 20%;
+}
+
+header{
+    background-color: blueviolet;
+    padding: 8px; 
+    width: 100%; 
+    display: flex; 
+    position: fixed; 
+    top: 0px; 
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+.engajamento {
+    width: 10%;   
+}
+
+.reacao {
+    display: flex;
+    background-color: rgb(255, 153, 0);
+    border-radius: 0 0 8px 8px;  
+    justify-content: space-evenly;
+}
+
+.numeros {
+    align-items: center;
+    padding: 1%;
+}
+
+.card-title {
+    text-align: center; 
+    font-size: 15px; 
+    background-color: rgb(255, 153, 0);    
+}
+
+.profile {
+    max-width: 10%;
+}
+
+.perfil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.voce {
+    display: flex;
+    align-items: center;
+}
+
+.botao {
+    max-width: 5%;
+}
+
+.trending {
+    max-width: 5%;
+}
+
+.poster_de_baixo{
+    max-width: 7%;
+}
+
+footer{
+    background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;  
+}
+
+.views{
+    justify-content: flex-end;
+    display: flex;
+}
